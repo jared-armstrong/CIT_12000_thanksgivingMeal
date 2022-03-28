@@ -60,4 +60,4 @@ let displayPrice = document.querySelector(".priceInfo");
 displayPrice.innerHTML = "Seniors get a 10% discount, the total cost for your Thanksgiving Meal? Adults: " + thanksgivingMeal.total_cost + ", Seniors: " + thanksgivingMeal.totalPrice() + " .";
 
 let indicatorTotal = document.querySelector(".calorieInfo");
-indicatorTotal.innerHTML = "Worried about calories? Total damage is " + thanksgivingMeal.caloriesFrom(calorieSum) + " (starter:" + thanksgivingMeal.starter.calories + ", entree: " + thanksgivingMeal.entree.calories + ", dessert: " + thanksgivingMeal.dessert.calories + ")";  
+indicatorTotal.innerHTML = "Worried about calories? Total damage is " + "" + " (starter:" + thanksgivingMeal.starter.calories + ", entree: " + thanksgivingMeal.entree.calories + ", dessert: " + thanksgivingMeal.dessert.calories + ")";  
